@@ -1,0 +1,4 @@
+load $1, 6
+jmpf $1
+hlt
+load $2, 9

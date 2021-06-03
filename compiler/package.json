@@ -1,0 +1,25 @@
+{
+  "name": "nasko",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.170",
+    "@types/node": "^15.6.2",
+    "inquirer": "^8.1.0",
+    "typescript": "^4.3.2"
+  },
+  "scripts": {
+    "test": "npm run build && node tests/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "cstanze",
+  "license": "MIT"
+}
